@@ -9,17 +9,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class=bg-light>
-   <nav class='navbar navbar-light bg-white'>
-    <ul class="nav nav-pills aqua">
-        <li class="nav-item"><a class='nav-link' href="#">Lattitude</a></li>
+   <nav class='navbar navbar-light bg-white height'>
+    <ul class="nav nav-pills aqua ">
+        <li class="nav-item title"><a class='nav-link' href="#">Lattitude</a></li>
     </ul>
     <ul class="nav nav-pills navbar-right">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href='#' id='navbarDropdownmenuLink' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Max Temperature</a>
+                    <a class="dropdown-item" href="#">Cloudiness</a>
+                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="#">Humidity</a>                    
+            </div>
+        </li> 
         <li class="nav-item">
-            <a class="nav-link" href='#'>Plots</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href='#'>Comparison</a>
-        </li>        
+                <a class="nav-link" href='#'>Comparison</a>
+            </li>       
         <li class="nav-item">
             <a class="nav-link" href='#'>Data</a>
         </li>     
@@ -42,10 +48,18 @@
             <div class='box bg-white'>
                 <h2>Visualizations</h2>
                 <hr>
-                <img src="Resources/Fig1.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
-                <img src="Resources/Fig2.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
-                <img src="Resources/Fig3.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
-                <img src="Resources/Fig4.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
+                <a href=#>
+                    <img src="Resources/Fig1.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
+                </a>
+                <a href="#">
+                    <img src="Resources/Fig2.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
+                </a>
+                <a href='#'>
+                    <img src="Resources/Fig3.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
+                </a>   
+                <a href="#">
+                    <img src="Resources/Fig4.png" alt='clouds vs lat' class='img-thumbail' style="width:200px;height:200px;">
+                </a>
             </div>
         </div>
     </div>
